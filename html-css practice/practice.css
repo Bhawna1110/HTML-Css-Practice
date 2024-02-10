@@ -1,0 +1,33 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+p{
+    color: blueviolet;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+img{
+    border: 3px solid blue;
+    border-bottom-style: dashed;
+    object-fit: cover;
+    object-position: right;
+    box-shadow: 2px 2px 1000px blue;
+}
+form, button{
+    border-radius: 20px;
+&:hover{
+    color: blue;
+}}
+.prac{
+    a:hover{
+    color: yellowgreen;
+    font-size: 200px;
+    }
+}
+.material-icons{
+    color: red;
+    font-size: 3600px;
+    float: right;
+}
